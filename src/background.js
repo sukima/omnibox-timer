@@ -7,10 +7,10 @@ function parseTime(str) {
   var last = str.charAt(str.length - 1);
   var mul;
   switch (last) {
-  case 'h': mul = 60 * 60; break;
-  case 'm': mul = 60; break;
-  case 's': mul = 1; break;
-  default: mul = 60; break;
+    case 'h': mul = 60 * 60; break;
+    case 'm': mul = 60; break;
+    case 's': mul = 1; break;
+    default: mul = 60; break;
   }
   return num * mul;
 }

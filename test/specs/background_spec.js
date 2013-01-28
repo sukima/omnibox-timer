@@ -6,7 +6,6 @@ describe("background.js", function() {
 
     it("should handle minutes", function() {
       expect( parseTime("123m") ).toBe( 123*60 );
-      expect( parseTime("123t") ).toBe( 123*60 );
     });
 
     it("should handle hours", function() {
@@ -15,6 +14,7 @@ describe("background.js", function() {
 
     it("should default to minutes", function() {
       expect( parseTime("123") ).toBe( 123*60 );
+      expect( parseTime("123t") ).toBe( 123*60 );
     });
 
     it("should return null for bad input", function() {

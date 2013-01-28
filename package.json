@@ -1,0 +1,10 @@
+{
+  "name": "Omnibox-Timer",
+  "version": "1.0.0",
+  "author": "Devin Weaver (@sukima)",
+  "devDependencies": { 
+    "jasmine-node": "latest",
+    "browserify": "latest",
+    "docco": "latest"
+  }
+}
